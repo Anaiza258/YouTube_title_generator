@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>YouTube Title Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+      body{
+        background-color: rgb(236, 244, 255)
+      }
+
+      .modal-content{
+        background-color:#EEF5FF;
+      }
+      .accordion-button{
+        background-color: #EEF5FF;
+      }
+      .accordion-item{
+        background-color: rgb(249, 249, 249);
+      }
+
+      .placeholder {
+  background: linear-gradient(90deg, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.1) 75%);
+    background-size: 200% 100%;
+    animation: placeholder-glow 2s infinite;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.placeholder-lg {
+    width: 100%;
+    height: 20px;
+}
+
+.placeholder-md {
+    width: 75%;
+    height: 15px;
+}
+
+.placeholder-sm {
+    width: 50%;
+    height: 10px;
+}
+
+.placeholder-glow {
+    position: relative;
+}
+
+.placeholder-glow .placeholder {
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+      .feature-icon {
+        font-size: 1.5rem;
+        color: #007bff;
+    }
+        .hidden {
+            display: none;
+        }
+        .mygr{
+          background-image:linear-gradient(140deg, rgb(252, 253, 255) 10%, rgb(240, 248, 255) 40%, rgb(234, 246, 249));
+          background-size: cover;
+          border: 1.4px solid #1990ca;
+          border-radius: 10px 10px 0 0;
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 57, 89, 0.14) 0px 12px 10px 0px;
+        }
+        .genButton{
+          color: #fff !important;
+          background: linear-gradient(0deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),linear-gradient(90deg,#ff4d4f,#fe58bc 47.92%,#795af6);
+        }
+
+        .feature{
+          color: #fff !important;
+          background-color: #6c5ce7 ;
+        }
+
+        .gendesc{
+          color: #fff !important;
+          background: linear-gradient(0deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),linear-gradient(90deg,#795af6,#fe58bc);
+        }
+
+        .title-block{
+          /* background-image: linear-gradient(to right bottom, rgb(226, 246, 255), rgb(232, 237, 255)); */
+           background-image:linear-gradient(to right bottom, rgb(226, 246, 255), rgb(213 222 255));
+          background-size: cover;
+          transition: box-shadow 0.3s ease;
+        }
+        .title-block:hover{
+          box-shadow: 10px 10px 20px rgba(8, 87, 160, 0.5);
+        }
+        .suggest-block{
+          background-image: linear-gradient(to right bottom, rgb(232, 232, 255), rgb(235, 255, 251));
+          transition: box-shadow 0.3s ease;
+        }
+        .suggest-block:hover{
+          box-shadow: 10px 10px 20px rgba(8, 87, 160, 0.5);
+        }
+        .desc-block{
+          background-image: linear-gradient(to right bottom, rgb(255, 241, 237), rgb(255, 250, 252), rgb(248, 242, 255));
+          transition: box-shadow 0.3s ease;
+        }
+        .desc-block:hover{
+          box-shadow: 10px 10px 20px rgba(244, 154, 75, 0.5);
+        }
+
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: #fff;
+            /* background-color: #0d6efd; */
+            background-image: linear-gradient(to right, rgb(137, 108, 255), rgb(162, 139, 255))
+        }
+        h1.ytubeTitle{
+          font-size: 50px;
+        /* background: -webkit-linear-gradient(#eee, #333); */
+        background:linear-gradient(90deg, rgb(255, 77, 79), rgb(254, 88, 188) 47.92%, rgb(121, 90, 246));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        display: inline-block;
+        text-align: center;
+
+          
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .genheading{
+          font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 300;
+          font-style: normal;
+        }
+
+  .down-arrow {
+    position: relative;
+    top: 3%;
+    /* left: calc(50% - 14px); */
+    left: 50%;
+    width: 0;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+  color: #795af6;
+}
+
+.down-arrow:after {
+  content: " ";
+    position: absolute;
+    top: 12px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-radius: 2px;
+    transform: rotateZ(45deg);
+}
+
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+        
+  
+.video-heading{
+  background-image: linear-gradient(to right, rgb(68, 188, 255), rgb(0, 255, 209));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+.video-nocreditcard{
+  color: rgb(0, 234, 180);;
+}
+.video-button{
+  background-color: rgb(0, 234, 180);
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 65px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.video-button:hover {
+  color: #fff;
+  box-shadow: 2px -1px 28px 0px rgba(89,245,203,0.75);
+-webkit-box-shadow: 2px -1px 28px 0px rgba(89,245,203,0.75);
+-moz-box-shadow: 2px -1px 28px 0px rgba(89,245,203,0.75);
+}
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(28,28,28);
+  background: linear-gradient(138deg, rgb(14, 39, 83) 20%, rgba(24,41,80,0.7401027305453431) 55%, rgba(17,177,209,1) 100%);
+  opacity: 0.8;
+  z-index: 1;
+}
+.video-bottom-svg {
+  position: absolute;
+  bottom: 40px;  /*0*/
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+/*paly*/
+.vbtn {
+  display: inline-block;
+  position: relative;
+}
+.vbtn.is-play {
+  /* background-color: #fff; */
+  background-image: linear-gradient(to right, rgb(26, 48, 244), rgb(0, 255, 209));
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+.vbtn.is-play .button-outer-circle {
+  background: rgba(255,255,255,0.3);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.vbtn.is-play .button-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%);
+}
+.vbtn.is-play .button-icon .triangle {
+  -webkit-animation: fadeIn 7s ease;
+          animation: fadeIn 7s ease;
+}
+.vbtn.is-play .button-icon .path {
+  stroke-dasharray: 90;
+  stroke-dashoffset: 0;
+  -webkit-animation: triangleStroke 3s;
+          animation: triangleStroke 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+.has-scale-animation {
+  -webkit-animation: smallScale 3s infinite;
+          animation: smallScale 3s infinite;
+}
+.has-delay-short {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes triangleStroke {
+  from {
+    stroke-dashoffset: 90;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes triangleStroke {
+  from {
+    stroke-dashoffset: 90;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes smallScale {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes smallScale {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+     
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="center-content">
+  <div class="video-background-holder">
+    <div class="video-background-overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="../static/top.mp4" type="video/mp4">
+      </video>
+    <div class="video-background-content container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="video-heading text-center">The Most Powerful, All-in-One AI Youtube Copilot.</h1>
+          <button class="btn video-button mt-4">Start From Free</button>
+          <p class="lead mb-0 mt-4 video-nocreditcard">No credit card required</p>
+          <div class="container mt-5">
+            <a class="vbtn is-play" href="#">
+              <div class="button-outer-circle has-scale-animation"></div>
+              <div class="button-outer-circle has-scale-animation has-delay-short"></div>
+              <div class="button-icon is-play">
+                <svg height="100%" width="100%" fill="#000">
+                  <polygon class="triangle" points="5,0 30,15 5,30" viewBox="0 0 30 15"></polygon>
+                  <path class="path" d="M5,0 L30,15 L5,30z" fill="none" stroke="#000" stroke-width="1"></path>
+                </svg>
+              </div></a>
+          </div>
+          <p class="lead d-none">Powered by <a href="#" class="text-white">
+                      <u>Aniza</u></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg class="video-bottom-svg" viewBox="0 0 1920 180">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 180V0C1920 35.3462 1891.35 64 1856 64H1094.8C1067.05 64 1041.4 78.7233 1027.4 102.675C997.261 154.242 922.739 154.242 892.602 102.675C878.605 78.7233 852.947 64 825.205 64H64C28.6538 64 0 35.3462 0 0V180H1920Z" fill="#ecf4ff"></path>
+  </svg>
+
+    <div class="container mt-5">
+        <!-- Centered Title -->
+        <div class="row">
+            <div class="col text-center align-items-center">
+                <h1 class="ytubeTitle">YouTube Title Generator</h1>
+            </div>
+        </div>
+        <!-- Form for Topic -->
+         <div class="container mygr mt-3">
+        <div class="row mt-4 ">
+            <div class="col-md-10">
+                <form method="post" action="/" id="titleForm" class="d-flex flex-wrap align-items-end">
+                    <div class="me-md-4 mb-3 mb-md-0 flex-grow-1 align-items-end mb-3">
+                      <label for="topic" class="form-label">Enter a Topic</label>
+                      <input type="text" class="form-control" id="topic" name="topic" placeholder="Topic here"
+                          value="{{ topic }}" required>
+                  </div>
+                  <!-- buttons to generate and regenerate title -->
+                  <div class="d-grid gap-2 d-md-flex ">
+                      <button type="submit" class="btn btn-primary mx-2   genButton" id="generateButton" name="action"
+                          value="generate">Generate Title</button>
+                      <button type="submit" class="btn btn-secondary mx-2 hidden genButton" id="regenerateButton" name="action"
+                          value="regenerate">Regenerate Title</button>
+                      <button  class="btn btn-primary feature mx-2" data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Features</button>
+                  </div>
+                    <!-- Tone, Character Limit, Words Limit, SEO and Emojis options -->
+                    <div class="row mt-4 w-70">
+                        <div class="col-md-2 mb-3 flex-grow-1">
+                            <label for="tone" class="form-label">Select Tone</label>
+                            <select class="form-control" id="tone" name="tone" required>
+                                <option value="engaging" {% if tone=='engaging' %}selected{% endif %}>Engaging</option>
+                                <option value="enthusiastic" {% if tone=='enthusiastic' %}selected{% endif %}>
+                                    Enthusiastic</option>
+                                <option value="informative" {% if tone=='informative' %}selected{% endif %}>Informative
+                                </option>
+                                <option value="curious" {% if tone=='curious' %}selected{% endif %}>Curious</option>
+                                <option value="excited" {% if tone=='excited' %}selected{% endif %}>Excited</option>
+                                <option value="standard" {% if tone=='standard' %}selected{% endif %}>Standard</option>
+                                <option value="catcy" {% if tone=='catchy' %}selected{% endif %}>Catchy</option>
+                                <option value="encouraging" {% if tone=='encouraging' %}selected{% endif %}>Encouraging
+                                </option>
+                                <option value="sarcastic" {% if tone=='srcastic' %}selected{% endif %}>Sarcastic
+                                </option>
+                                <option value="dramatic" {% if tone=='dramatic' %}selected{% endif %}>Dramatic</option>
+                                <option value="witty" {% if tone=='witty' %}selected{% endif %}>Witty</option>
+                                <option value="creative" {% if tone=='creative' %}selected{% endif %}>Creative</option>
+                                <option value="funny" {% if tone=='funny' %}selected{% endif %}>Funny</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3 flex-grow-1">
+                            <label for="title_char_limit" class="form-label">Characters Limit</label>
+                            <input type="number" class="form-control" id="title_char_limit" name="title_char_limit"
+                                value="{{ title_char_limit }}" required>
+                        </div>
+                        <div class="col-md-2 mb-3 flex-grow-1">
+                            <label for="title_word_limit" class="form-label">Words Limit</label>
+                            <input type="number" class="form-control" id="title_word_limit" name="title_word_limit"
+                                value="{{ title_word_limit }}" required>
+                        </div>
+                        <div class="col-md-2 mb-3 flex-grow-1">
+                            <label for="seo" class="form-label">SEO Optimized</label>
+                            <select class="form-control" name="seo" id="seo">
+                                <option value="yes" {% if seo %}selected{% endif %}>Yes</option>
+                                <option value="no" {% if not seo %}selected{% endif %}>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3 flex-grow-1">
+                            <label for="include_emojis" class="form-label">Include Emojis</label>
+                            <select class="form-control" id="include_emojis" name="include_emojis" required>
+                                <option value="yes" {% if include_emojis %}selected{% endif %}>Yes</option>
+                                <option value="no" {% if not include_emojis %}selected{% endif %}>No</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        <!-- Main Title Section -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 ">
+                    {% if main_title %}
+                    <div class="card mt-3 mt-md-0 border border-info ">
+                        <div class="card    title-block">
+                            <div class="card-body">
+                                <h2 class="card-title genheading myheading">Main Title:</h2>
+                                <p id="getTitle" class="card-text">{{ main_title }}</p>
+                                <button type="button" class="copy-button btn btn-dark">Copy</button>
+                                <!-- save main-title and description as hidden input for further use-->
+                                <input type="hidden" id="main_title_input" name="main_title" value="{{ main_title }}">
+                                <input type="hidden" id="hidden_description" value="{{ description }}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down-arrow"></div> 
+                    <div class="text- center mt-4">Explore the Description Here</div>
+                    {% endif %}
+                </div>
+                <!-- Suggested Titles  -->
+                <div class="col-md-6">
+                    {% if suggestions %}
+                    <div class="card mt-3 mt-md-0 border border-info">
+                        <div class="card suggest-block">
+                            <div class="card-body">
+                                <h2 class="card-title genheading">Suggested Titles:</h2>
+                                <ul class="card-text">
+                                    {% for title in suggestions %}
+                                    <li>{{ title }}</li>
+                                    <button type="button" class="copy-button btn btn-dark">Copy</button>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        document.getElementById('generateButton').classList.add('hidden');
+                        document.getElementById('regenerateButton').classList.remove('hidden');
+                    </script>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <!-- Tabs , data extraction -->
+         <!-- Tabs section-->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Suggested
+                    Description</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Type your own
+                    title</button>
+            </li>
+        </ul>
+        <!-- Title base description-->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                {% if description %}
+                <div class="generated-description mt-4 p-3 border rounded bg-light--  desc-block">
+                    <h2 class="genheading">Here is Description for you:</h2>
+                    <p>{{ description }}</p>
+                    <button type="button" class="copy-button btn btn-dark" data-copy-type="description">Copy</button>
+                </div>
+                {% endif %}
+            </div>
+            <!-- User-Title Base Description-->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <!-- Title and Buttons in one horizontal line -->
+                <div class="d-flex flex-wrap align-items-end mb-3">
+                    <div class="flex-grow-1 me-4">
+                        <label for="user_description_text" class="form-label ">Enter Title for Description</label>
+                        <input type="text" class="form-control " id="user_description_text" name="user_description_text"
+                            placeholder="Type Your Title" required>
+                    </div>
+                    <button type="button" class="btn btn-warning me-2" id="clearTitleButton">Clear</button>
+                    <button type="button" class=" btn btn-primary gendesc mx-2" id="generate_desc_button">Generate
+                        Description</button>
+                </div>
+                <!-- Character and Word Limit fields in one horizontal line below the title input field -->
+                <div class="d-flex flex-wrap align-items-center mb-3">
+                    <div class="me-2 mb-3" style="flex-basis: auto;">
+                        <label for="descrip_char_limit" class="form-label">Characters Limit</label>
+                        <input type="number" class="form-control" id="desc_char_limit" name="descrip_char_limit" value="250"
+                            required style="width: 140px;">
+                    </div>
+                    <div class="mb-3" style="flex-basis: auto;">
+                        <label for="descrip_words_limit" class="form-label">Words Limit</label>
+                        <input type="number" class="form-control" id="desc_word_limit" name="descrip_words_limit" value="50"
+                            required style="width: 140px;">
+                    </div>
+                </div>
+                <div id="generated_description_container" class="generated-description mt-4 p-3 border rounded bg-light  desc-block" style="display: none;">
+                  <h2 class="genheading">Generated Description</h2>
+                  <p id="generated_description" class="placeholder-glow"></p> 
+                  <button type="button" class="copy-button btn btn-dark" data-copy-type="description">Copy</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">...</div>
+        </div>
+        <!-- Modals-->
+        <div class="modal fad " id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">About My App</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body border border-secondary p-4">
+                    This app helps you generate amazing titles for your YouTube videos, making your video creation
+                    journey easier. You can quickly create titles for your videos and customize them to be SEO-friendly.
+                    One of the most powerful features is that it also generates descriptions for your videos, allowing
+                    you to create compelling descriptions with ease.The app enabling you to generate titles and descriptions tailored for your video-sharing platform.
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog  modal-lg   modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalToggleLabel2">Features</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row">
+                          <!-- Row 1 -->
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-3">
+                              <i class="feature-icon">✏️</i>
+                              <h6>Custom Title Input</h6>
+                              <p>Create and customize your own titles to match your video's content and style.</p>
+                              <ul class="list-unstyled">
+                                <li>➤ Character and word limits</li>
+                                <li>➤ Emoji usage</li>
+                                <li>➤ Tone</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-4">
+                            <i class="feature-icon">🔍</i>
+                            <h6>SEO Optimization</h6>
+                            <p>Generate SEO-friendly titles to help your videos rank higher in search results.</p>
+                          </div>
+                          <!-- Row 2 -->
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-4">
+                              <i class="feature-icon">📜</i>
+                              <h6>Automatic Title Generation</h6>
+                              <p>Generate creative and catchy titles for your YouTube videos in no time.</p>
+                          </div>
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-4">
+                            <i class="feature-icon">💡</i>
+                            <h6>Title Suggestions</h6>
+                            <p>Receive multiple title suggestions to find the perfect match for your content.</p>
+                          </div>
+                          <!-- Row 3 -->
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-4">
+                              <i class="feature-icon">📝</i>
+                              <h6>Automatic Description Generation</h6>
+                              <p>Generate detailed and engaging descriptions to complement your video titles.</p>
+                          </div>
+                          <div class="col-md-6 d-flex flex-column align-items-start mb-4">
+                            <i class="feature-icon">⚙️</i>
+                            <h6>Customizable Description Generation</h6>
+                            <p>Create descriptions based on your custom title input, tailored to your specific needs.</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>              
+            </div>
+        </div>
+    </div>
+    <!-- Modal for FAQs -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">FAQs</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="accordion accordion-flush  border border-secondary p-4 " id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Can I customize the titles generated by the app?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes, you can fully customize the titles generated by the app to match your specific content and
+                                    style preferences.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Is the app SEO-friendly for YouTube videos?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes, the app generates titles that are optimized for SEO (Search Engine Optimization) to help
+                                    improve visibility and reach on YouTube.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    What features does the app offer besides title generation?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Besides title generation, the app offers customization options, emoji usage, character and word
+                                    limits, platform selection, and generates descriptions for YouTube videos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    How accurate and reliable are the generated titles and descriptions?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    The app strives to generate accurate and reliable titles and descriptions based on user input and
+                                    content analysis. Users can further customize generated content for better accuracy.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- footer -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-primary">
+          <p class="col-md-4 mb-0 text-muted">© 2024 A.ai</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="bi me-2" src="../static//icon.png" alt="">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">FAQs</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"data-bs-toggle="modal" data-bs-target="#exampleModalToggle">About app</a></li>
+          </ul>
+        </footer>
+      
+
+    <!-- Script Section -->
+    <script>
+
+        // User_Input base description
+        const generateDescButton = document.getElementById('generate_desc_button');
+const userDescText = document.getElementById('user_description_text');
+const descCharLimit = document.getElementById('desc_char_limit');
+const descWordLimit = document.getElementById('desc_word_limit');
+const generatedDescContainer = document.getElementById('generated_description_container');
+const generatedDesc = document.getElementById('generated_description');
+const copyButton = document.querySelector('.copy-button'); // Copy button
+
+generateDescButton.addEventListener('click', async (event) => {
+    event.preventDefault();
+    
+    const userTextValue = userDescText.value;
+    const charLimitValue = parseInt(descCharLimit.value);
+    const wordLimitValue = parseInt(descWordLimit.value);
+    
+    // Show the loader and placeholder text
+    generatedDescContainer.style.display = 'block';
+    generatedDesc.classList.add('placeholder-glow');  // Add glowing effect
+    copyButton.style.display = 'none'; // Hide copy button
+
+    // Create placeholders with different widths
+    generatedDesc.innerHTML = `
+        <div class="placeholder placeholder-lg"></div>
+        <div class="placeholder placeholder-md"></div>
+        <div class="placeholder placeholder-sm"></div>
+    `;
+    generatedDesc.querySelector('.placeholder-lg'); // Placeholder text
+
+    try {
+        const response = await fetch('/description', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                'text': userTextValue,
+                'desc_char_limit': charLimitValue,
+                'desc_word_limit': wordLimitValue,
+            }),
+        });
+
+        const data = await response.json();
+
+        if (data.error) {
+            generatedDesc.innerHTML = `<p>Error: ${data.error}</p>`;
+        } else {
+            generatedDesc.innerHTML = `<p>${data.desc}</p>`;
+        }
+    } catch (error) {
+        generatedDesc.innerHTML = `<p>Error: ${error.message}</p>`;
+    } finally {
+        // Remove the placeholder glow effect
+        generatedDesc.classList.remove('placeholder-glow');
+        copyButton.style.display = 'inline-block'; // Show copy button
+    }
+});
+
+
+        //  Set copy button 
+        function setupCopyButtons() {
+            const copyButtons = document.querySelectorAll('.copy-button');
+
+            copyButtons.forEach(copyButton => {
+                copyButton.addEventListener('click', async function () {
+                    let contentToCopy;
+
+                    if (copyButton.dataset.copyType === 'description') {
+                        contentToCopy = copyButton.previousElementSibling.textContent.trim();
+                    } else {
+                        contentToCopy = copyButton.previousElementSibling.textContent.trim();
+                    }
+
+                    try {
+                        await navigator.clipboard.writeText(contentToCopy);
+                        alert('Copied!');
+                    } catch (err) {
+                        console.error('Failed to copy: ', err);
+                        alert('Copy failed. Please try again.');
+                    }
+                });
+            });
+        }
+
+        // Call the setup function once the document is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            setupCopyButtons();
+        });
+
+        // title, clear, buttons  form script
+        document.getElementById('clearTitleButton').addEventListener('click', function () {
+            document.getElementById('user_description_text').value = '';
+        });       // user_description_text -> give id to it for clear 
+
+        document.getElementById('topic').addEventListener('input', function () {
+            document.getElementById('generateButton').classList.remove('hidden');
+            document.getElementById('regenerateButton').classList.add('hidden');
+        });
+
+        document.getElementById('platform').addEventListener('change', function () {
+            document.getElementById('generateButton').classList.remove('hidden');
+            document.getElementById('regenerateButton').classList.add('hidden');
+        });
+
+        document.getElementById('titleForm').addEventListener('submit', function () {
+            document.getElementById('generateButton').classList.add('hidden');
+            document.getElementById('regenerateButton').classList.remove('hidden');
+        });
+
+    </script>
+</body>
+
+</html>

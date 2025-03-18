@@ -1,0 +1,541 @@
+2024-06-12 04:25:10 - Platform: YouTube, Topic: ai and js learning 
+2024-06-12 04:25:34 - Platform: YouTube, Topic: learn datascience with pythhon
+2024-06-12 04:27:52 - Platform: Instagram, Topic: learn insta with js
+2024-06-12 04:27:57 - Platform: Facebook, Topic: learn insta with js
+2024-06-12 04:28:01 - Platform: Instagram, Topic: learn insta with js
+2024-06-12 04:28:20 - Platform: Instagram, Topic: learn insta with js
+2024-06-12 04:28:23 - Platform: YouTube, Topic: learn insta with js
+2024-06-12 04:28:25 - Platform: YouTube, Topic: learn insta with js
+2024-06-12 04:28:28 - Platform: Facebook, Topic: learn insta with js
+2024-06-12 14:49:15 - Platform: Instagram, Topic: ai with php
+2024-06-12 15:09:20 - Platform: YouTube, Topic: None
+2024-06-12 15:12:25 - Platform: YouTube, Topic: None
+2024-06-12 15:29:03 - Platform: YouTube, Topic: python in a month
+2024-06-12 16:42:07 - Platform: YouTube, Topic: ai 
+2024-06-12 19:58:35 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-12 19:59:56 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-12 20:01:39 - Platform: YouTube, Topic: None
+2024-06-12 20:02:24 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-12 20:02:40 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-12 20:03:13 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-12 20:06:41 - Platform: YouTube, Topic: ai
+2024-06-12 20:06:55 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-13 15:16:04 - Platform: YouTube, Topic: ai
+2024-06-13 15:16:08 - Platform: YouTube, Topic: ai
+2024-06-13 15:16:16 - Platform: YouTube, Topic: ai
+2024-06-13 15:16:20 - Platform: YouTube, Topic: ai
+2024-06-13 15:20:45 - Platform: YouTube, Topic: ai
+2024-06-13 15:20:48 - Platform: YouTube, Topic: ai
+2024-06-13 15:22:00 - Platform: YouTube, Topic: ai
+2024-06-13 15:24:00 - Platform: YouTube, Topic: ai
+2024-06-13 15:24:47 - Platform: YouTube, Topic: ai
+2024-06-13 15:25:39 - Platform: YouTube, Topic: ai
+2024-06-13 16:23:33 - Platform: YouTube, Topic: ai
+2024-06-13 16:23:36 - Platform: YouTube, Topic: ai
+2024-06-14 09:46:14 - Platform: YouTube, Topic: ai
+2024-06-14 09:46:22 - Platform: YouTube, Topic: nlp
+2024-06-14 10:23:35 - Platform: YouTube, Topic: nlp
+2024-06-14 10:40:42 - Platform: YouTube, Topic: nlp
+2024-06-16 12:36:01 - Platform: YouTube, Topic: None
+2024-06-16 14:45:48 - Platform: YouTube, Topic: None
+2024-06-16 14:46:34 - Platform: YouTube, Topic: None
+2024-06-16 15:05:24 - Platform: YouTube, Topic: None
+2024-06-16 15:15:01 - Platform: YouTube, Topic: None
+2024-06-16 15:15:13 - Platform: YouTube, Topic: None
+2024-06-16 15:16:10 - Platform: YouTube, Topic: None
+2024-06-16 15:16:19 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:18:27 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:18:35 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:18:48 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:18:59 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:21:38 - Platform: YouTube, Topic: strategies of marketing
+2024-06-16 15:23:10 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:23:19 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:23:36 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:23:42 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:24:27 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:25:16 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:29:18 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:33:04 - Platform: Facebook, Topic: content writing
+2024-06-16 15:36:25 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:36:30 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:36:43 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:37:01 - Platform: YouTube, Topic: ai
+2024-06-16 15:37:49 - Platform: YouTube, Topic: ai
+2024-06-16 15:37:55 - Platform: YouTube, Topic: ai
+2024-06-16 15:37:59 - Platform: YouTube, Topic: ai
+2024-06-16 15:38:10 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:40:38 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-16 15:41:02 - Platform: YouTube, Topic: Strategy of Marketing
+2024-06-18 12:43:38 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 12:44:15 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 12:44:19 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 12:44:31 - Platform: YouTube, Topic: health care
+2024-06-18 20:48:52 - Platform: YouTube, Topic: health care
+2024-06-18 20:51:20 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 20:52:56 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 20:55:09 - Platform: YouTube, Topic: content writing
+2024-06-18 20:55:18 - Platform: YouTube, Topic: python
+2024-06-18 21:02:37 - Platform: YouTube, Topic: python
+2024-06-18 21:02:45 - Platform: YouTube, Topic: python
+2024-06-18 21:02:49 - Platform: YouTube, Topic: python
+2024-06-18 21:02:56 - Platform: YouTube, Topic: python
+2024-06-18 21:13:58 - Platform: YouTube, Topic: content writing
+2024-06-18 21:15:03 - Platform: YouTube, Topic: content writing
+2024-06-18 21:15:29 - Platform: YouTube, Topic: health care
+2024-06-18 21:20:35 - Platform: YouTube, Topic: Graphic designing short course
+2024-06-18 21:24:04 - Platform: YouTube, Topic: Graphic designing short course
+2024-06-18 21:24:37 - Platform: YouTube, Topic: health care
+2024-06-18 21:27:29 - Platform: YouTube, Topic: health care
+2024-06-18 21:28:14 - Platform: YouTube, Topic: content writing
+2024-06-18 21:28:25 - Platform: YouTube, Topic: health care
+2024-06-18 21:30:09 - Platform: YouTube, Topic: ai
+2024-06-18 21:30:16 - Platform: YouTube, Topic: ai
+2024-06-18 21:36:28 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 21:36:40 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 21:56:33 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 22:05:48 - Platform: YouTube, Topic: Techniques to handle outliers in data
+2024-06-18 22:06:19 - Platform: YouTube, Topic: Techniques to handle outliers in data
+2024-06-18 22:20:25 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-18 22:20:45 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-18 22:20:57 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-19 21:34:25 - Platform: YouTube, Topic: health care
+2024-06-19 21:34:47 - Platform: YouTube, Topic: health care
+2024-06-19 21:35:30 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 21:38:31 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 21:39:07 - Platform: YouTube, Topic: content writing
+2024-06-19 21:40:51 - Platform: YouTube, Topic: content writing
+2024-06-19 21:52:26 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-19 21:53:16 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-19 21:54:07 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-19 21:54:24 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 21:54:46 - Platform: YouTube, Topic: advance python course
+2024-06-19 21:54:50 - Platform: YouTube, Topic: advance python course
+2024-06-19 21:55:28 - Platform: YouTube, Topic: content writing
+2024-06-19 21:55:32 - Platform: YouTube, Topic: content writing
+2024-06-19 22:02:24 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:02:34 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:09:14 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:09:42 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:10:08 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:10:11 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:22:13 - Platform: YouTube, Topic: health care
+2024-06-19 22:23:09 - Platform: YouTube, Topic: Machine learning course
+2024-06-19 22:23:36 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-19 22:23:43 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-19 22:24:06 - Platform: Facebook, Topic: Marketing strategies 
+2024-06-19 22:30:52 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:32:45 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:33:10 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 22:36:42 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 22:38:49 - Platform: YouTube, Topic: Machine Learning
+2024-06-19 22:43:26 - Platform: YouTube, Topic: health care
+2024-06-19 22:43:32 - Platform: YouTube, Topic: health care
+2024-06-19 22:43:37 - Platform: YouTube, Topic: health care
+2024-06-19 22:45:14 - Platform: YouTube, Topic: health care
+2024-06-19 22:46:53 - Platform: YouTube, Topic: content writing
+2024-06-19 22:47:57 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 22:49:40 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-19 22:59:35 - Platform: YouTube, Topic: health care
+2024-06-19 22:59:48 - Platform: YouTube, Topic: content writing
+2024-06-19 22:59:54 - Platform: YouTube, Topic: content writing
+2024-06-20 09:48:32 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 09:50:31 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 09:50:37 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 10:16:40 - Platform: YouTube, Topic: health care
+2024-06-20 10:17:48 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 14:33:56 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 14:45:24 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 14:46:33 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 14:46:39 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-20 14:47:20 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 14:47:53 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 14:53:47 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 14:53:52 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 14:53:55 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 14:58:33 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-20 15:04:43 - Platform: YouTube, Topic: health care
+2024-06-20 15:05:05 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-20 15:05:16 - Platform: YouTube, Topic: None
+2024-06-20 15:06:54 - Platform: YouTube, Topic: None
+2024-06-20 15:07:03 - Platform: YouTube, Topic: Machine Learning
+2024-06-20 15:16:50 - Platform: YouTube, Topic: content writing
+2024-06-20 15:16:59 - Platform: YouTube, Topic: content writing
+2024-06-20 15:19:00 - Platform: YouTube, Topic: content writing
+2024-06-20 15:19:16 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 15:19:23 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 15:19:34 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 15:22:33 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-20 15:45:22 - Platform: YouTube, Topic: health care
+2024-06-20 15:46:06 - Platform: YouTube, Topic: health care
+2024-06-20 15:47:38 - Platform: YouTube, Topic: health care
+2024-06-21 11:38:43 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-21 11:38:55 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-21 11:39:02 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 15:59:49 - Platform: YouTube, Topic: None
+2024-06-24 16:08:49 - Platform: YouTube, Topic: health care
+2024-06-24 17:13:04 - Platform: YouTube, Topic: Machine Learning
+2024-06-24 17:14:24 - Platform: YouTube, Topic: Machine Learning
+2024-06-24 17:28:17 - Platform: YouTube, Topic: Machine Learning
+2024-06-24 21:45:13 - Platform: YouTube, Topic: None
+2024-06-24 21:50:07 - Platform: YouTube, Topic: None
+2024-06-24 21:50:24 - Platform: YouTube, Topic: ai
+2024-06-24 21:50:42 - Platform: YouTube, Topic: ai
+2024-06-24 21:51:22 - Platform: YouTube, Topic: ai
+2024-06-24 21:51:31 - Platform: YouTube, Topic: ai
+2024-06-24 21:51:44 - Platform: YouTube, Topic: ai
+2024-06-24 21:53:57 - Platform: YouTube, Topic: ai
+2024-06-24 21:54:07 - Platform: YouTube, Topic: None
+2024-06-24 21:54:09 - Platform: YouTube, Topic: None
+2024-06-24 21:54:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 21:55:01 - Platform: YouTube, Topic: None
+2024-06-24 21:55:04 - Platform: YouTube, Topic: None
+2024-06-24 21:55:04 - Platform: YouTube, Topic: None
+2024-06-24 21:55:13 - Platform: YouTube, Topic: None
+2024-06-24 21:56:55 - Platform: YouTube, Topic: None
+2024-06-24 21:57:11 - Platform: YouTube, Topic: None
+2024-06-24 21:57:39 - Platform: YouTube, Topic: health care
+2024-06-24 21:57:59 - Platform: YouTube, Topic: health care
+2024-06-24 21:58:45 - Platform: YouTube, Topic: health care
+2024-06-24 21:58:58 - Platform: YouTube, Topic: health care
+2024-06-24 22:06:37 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 22:10:15 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 22:13:14 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 22:13:22 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-24 22:26:16 - Platform: YouTube, Topic: health care
+2024-06-24 22:30:38 - Platform: YouTube, Topic: health care
+2024-06-24 22:34:05 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-24 22:34:19 - Platform: YouTube, Topic: None
+2024-06-24 22:39:25 - Platform: YouTube, Topic: None
+2024-06-24 22:39:56 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-24 22:40:08 - Platform: YouTube, Topic: None
+2024-06-24 22:42:41 - Platform: YouTube, Topic: None
+2024-06-24 22:43:15 - Platform: YouTube, Topic: Machine Learning
+2024-06-24 22:43:25 - Platform: YouTube, Topic: None
+2024-06-24 22:52:24 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-24 22:52:30 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-24 23:15:24 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:34:00 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:42:18 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:42:34 - Platform: YouTube, Topic: None
+2024-06-25 05:50:27 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:50:33 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:56:01 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:56:02 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:56:05 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 05:56:14 - Platform: YouTube, Topic: None
+2024-06-25 05:56:39 - Platform: YouTube, Topic: None
+2024-06-25 05:58:29 - Platform: YouTube, Topic: None
+2024-06-25 05:58:50 - Platform: YouTube, Topic: health care
+2024-06-25 06:05:09 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 06:05:14 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 06:07:26 - Platform: YouTube, Topic: advance python course
+2024-06-25 10:03:23 - Platform: YouTube, Topic: None
+2024-06-25 10:03:34 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 10:03:39 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 10:03:48 - Platform: YouTube, Topic: None
+2024-06-25 10:16:38 - Platform: YouTube, Topic: content writing
+2024-06-25 10:16:52 - Platform: YouTube, Topic: None
+2024-06-25 10:24:15 - Platform: YouTube, Topic: health care
+2024-06-25 10:24:27 - Platform: YouTube, Topic: health care
+2024-06-25 10:31:04 - Platform: YouTube, Topic: health care
+2024-06-25 10:37:02 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 10:37:06 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 10:37:20 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 10:39:54 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 15:36:19 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:36:41 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:46:39 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:48:03 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:49:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:49:30 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:49:37 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:50:22 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:50:28 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:50:53 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:51:03 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 15:51:29 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 16:04:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 16:06:19 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 16:06:22 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 16:06:32 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-25 16:14:07 - Platform: YouTube, Topic: None
+2024-06-25 16:14:24 - Platform: YouTube, Topic: None
+2024-06-25 17:05:54 - Platform: YouTube, Topic: health care
+2024-06-25 17:15:53 - Platform: YouTube, Topic: health care
+2024-06-25 17:21:22 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 17:24:46 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 17:29:42 - Platform: YouTube, Topic: Natural Language Processing
+2024-06-25 23:09:56 - Platform: YouTube, Topic: health care
+2024-06-26 09:52:34 - Platform: Facebook, Topic: Tips for writing research paper
+2024-06-26 09:59:03 - Platform: Facebook, Topic: health care
+2024-06-26 10:03:15 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-26 10:26:06 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-26 10:32:23 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-26 10:36:55 - Platform: YouTube, Topic: ai
+2024-06-26 10:43:40 - Platform: YouTube, Topic: ai
+2024-06-26 10:43:49 - Platform: YouTube, Topic: ai
+2024-06-26 11:13:34 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-26 12:58:28 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-26 12:59:30 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-26 13:13:36 - Platform: YouTube, Topic: Machine Learning
+2024-06-26 23:00:52 - Platform: Instagram, Topic: Tips for writing research paper
+2024-06-26 23:01:04 - Platform: Instagram, Topic: Tips for writing research paper
+2024-06-26 23:19:15 - Platform: YouTube, Topic: 
+2024-06-27 10:26:58 - Platform: YouTube, Topic: 
+2024-06-27 10:27:07 - Platform: YouTube, Topic: 
+2024-06-27 10:45:42 - Platform: Instagram, Topic: AdvanceMachine learning course
+2024-06-27 10:46:01 - Platform: Instagram, Topic: AdvanceMachine learning course
+2024-06-27 10:46:13 - Platform: Instagram, Topic: AdvanceMachine learning course
+2024-06-27 10:49:19 - Platform: YouTube, Topic: 
+2024-06-27 10:52:50 - Platform: YouTube, Topic: 
+2024-06-27 10:54:34 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 11:55:47 - Platform: YouTube, Topic: 
+2024-06-27 11:56:43 - Platform: YouTube, Topic: 
+2024-06-27 11:57:56 - Platform: YouTube, Topic: 
+2024-06-27 11:58:48 - Platform: YouTube, Topic: 
+2024-06-27 12:30:32 - Platform: YouTube, Topic: 
+2024-06-27 17:38:00 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-27 17:55:26 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-27 20:44:41 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 20:50:33 - Platform: YouTube, Topic: 
+2024-06-27 20:50:43 - Platform: YouTube, Topic: 
+2024-06-27 20:53:41 - Platform: YouTube, Topic: 
+2024-06-27 20:54:00 - Platform: YouTube, Topic: 
+2024-06-27 20:54:17 - Platform: YouTube, Topic: 
+2024-06-27 20:54:44 - Platform: YouTube, Topic: 
+2024-06-27 20:55:30 - Platform: YouTube, Topic: 
+2024-06-27 20:55:34 - Platform: YouTube, Topic: 
+2024-06-27 20:57:50 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 20:58:00 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:06:56 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:20:35 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:20:45 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:28:13 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 21:32:16 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:32:33 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 21:32:54 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 21:33:48 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 21:34:51 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 21:42:36 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 21:42:52 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 22:11:30 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-27 22:12:09 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 22:12:15 - Platform: YouTube, Topic: Machine learning course
+2024-06-27 22:16:42 - Platform: YouTube, Topic: 
+2024-06-28 09:16:53 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 09:17:50 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 09:39:00 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 09:39:08 - Platform: YouTube, Topic: 
+2024-06-28 09:47:25 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 09:47:33 - Platform: YouTube, Topic: 
+2024-06-28 09:52:24 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 09:52:58 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 09:53:13 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 09:55:49 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 10:06:16 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:28:20 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:52:24 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:52:30 - Platform: YouTube, Topic: 
+2024-06-28 10:53:36 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:53:44 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:53:56 - Platform: YouTube, Topic: Machine learning course
+2024-06-28 10:56:43 - Platform: YouTube, Topic: 
+2024-06-28 10:56:59 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 10:57:24 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:07:06 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:07:11 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:07:18 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:07:52 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:07:56 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-28 11:08:32 - Platform: YouTube, Topic: 
+2024-06-28 12:52:22 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 12:52:41 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 14:07:36 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 14:08:01 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 14:08:25 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 14:27:04 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:27:11 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:29:49 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:29:54 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:46:56 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:47:00 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:47:54 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:48:05 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 14:48:09 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 15:04:25 - Platform: YouTube, Topic: 
+2024-06-28 15:04:36 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 15:04:43 - Platform: YouTube, Topic: 
+2024-06-28 15:05:33 - Platform: YouTube, Topic: ai
+2024-06-28 15:05:37 - Platform: YouTube, Topic: ai
+2024-06-28 15:08:53 - Platform: YouTube, Topic: 
+2024-06-28 15:09:02 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 15:09:08 - Platform: YouTube, Topic: Machine Learning
+2024-06-28 15:18:01 - Platform: YouTube, Topic: ai
+2024-06-28 15:18:06 - Platform: YouTube, Topic: ai
+2024-06-28 15:18:57 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 15:19:05 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 15:20:48 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-28 17:33:50 - Platform: YouTube, Topic: 
+2024-06-28 17:36:31 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:36:39 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:36:49 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:48:06 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:48:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:52:07 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:52:17 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:52:28 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 17:56:03 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 18:03:08 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 18:04:20 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 18:04:56 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:25:19 - Platform: YouTube, Topic: ai
+2024-06-28 21:31:12 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:33:13 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:34:12 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:36:26 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:37:43 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 21:50:09 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:08:41 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:09:46 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:10:51 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:12:16 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:13:26 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 22:30:08 - Platform: YouTube, Topic: health care
+2024-06-28 23:31:59 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 23:37:09 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-28 23:40:43 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-29 11:02:24 - Platform: Instagram, Topic: AdvanceMachine learning course
+2024-06-29 11:05:13 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:12:27 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:14:34 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:17:38 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:18:20 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:20:47 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 11:36:06 - Platform: YouTube, Topic: Machine learning course
+2024-06-29 11:36:27 - Platform: YouTube, Topic: Machine learning course
+2024-06-29 12:43:00 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:43:23 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:45:08 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:45:41 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:48:02 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:51:39 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 12:52:42 - Platform: YouTube, Topic: Machine learning course
+2024-06-29 12:59:30 - Platform: YouTube, Topic: AdvanceMachine learning course
+2024-06-29 21:40:42 - Platform: YouTube, Topic: ai
+2024-06-29 21:42:20 - Platform: YouTube, Topic: Marketing strategies 
+2024-06-29 21:50:39 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-29 21:52:55 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-29 22:06:25 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-30 18:33:28 - Platform: YouTube, Topic: Tips for writing research paper
+2024-06-30 19:07:46 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-01 10:13:03 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-01 10:14:06 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-01 10:14:41 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-01 10:28:45 - Platform: YouTube, Topic: ai
+2024-07-01 10:40:34 - Platform: YouTube, Topic: ai
+2024-07-01 10:42:25 - Platform: YouTube, Topic: ai
+2024-07-01 10:44:25 - Platform: YouTube, Topic: ai
+2024-07-01 10:46:13 - Platform: YouTube, Topic: ai
+2024-07-01 14:43:33 - Platform: YouTube, Topic: Machine Learning
+2024-07-02 09:55:17 - Platform: YouTube, Topic: ai
+2024-07-02 09:55:41 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 10:00:45 - Platform: Facebook, Topic: content writing
+2024-07-02 10:02:05 - Platform: Facebook, Topic: content writing
+2024-07-02 10:02:32 - Platform: Facebook, Topic: content writing
+2024-07-02 10:18:37 - Platform: YouTube, Topic: health care
+2024-07-02 10:21:18 - Platform: YouTube, Topic: health care
+2024-07-02 10:22:17 - Platform: YouTube, Topic: health care
+2024-07-02 12:03:28 - Platform: YouTube, Topic: health care
+2024-07-02 14:30:59 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 15:10:18 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 15:11:04 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 15:11:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 15:39:57 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 16:16:34 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 16:21:27 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-02 16:32:54 - Platform: YouTube, Topic: Natural Language Processing
+2024-07-03 20:41:21 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 22:48:59 - Platform: YouTube, Topic: ai
+2024-07-03 23:05:46 - Platform: YouTube, Topic: health care
+2024-07-03 23:08:17 - Platform: YouTube, Topic: ai
+2024-07-03 23:08:37 - Platform: YouTube, Topic: ai
+2024-07-03 23:12:20 - Platform: YouTube, Topic: ai
+2024-07-03 23:13:37 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:13:55 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:15:02 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:16:18 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:16:47 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:17:45 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-03 23:18:51 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-04 11:46:39 - Platform: YouTube, Topic: Machine Learning
+2024-07-04 11:50:54 - Platform: YouTube, Topic: Marketing strategies 
+2024-07-04 12:20:50 - Platform: YouTube, Topic: Machine Learning
+2024-07-04 12:23:13 - Platform: YouTube, Topic: Machine Learning
+2024-07-04 12:24:33 - Platform: YouTube, Topic: Machine Learning
+2024-07-06 13:19:51 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-11 08:29:25 - Platform: Facebook, Topic: Tips for writing research paper
+2024-07-11 08:33:09 - Platform: Facebook, Topic: Tips for writing research paper
+2024-07-11 08:35:24 - Platform: Facebook, Topic: Tips for writing research paper
+2024-07-11 08:37:11 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-11 08:54:37 - Platform: Facebook, Topic: Marketing strategies 
+2024-07-11 09:25:23 - Platform: YouTube, Topic: health care
+2024-07-11 10:20:14 - Platform: YouTube, Topic: content writing
+2024-07-11 10:20:48 - Platform: YouTube, Topic: content writing
+2024-07-13 15:25:25 - Platform: YouTube, Topic: content writing
+2024-07-13 15:31:17 - Platform: YouTube, Topic: ai
+2024-07-13 15:31:38 - Platform: YouTube, Topic: Natural Language Processing
+2024-07-13 15:33:19 - Platform: YouTube, Topic: Natural Language Processing
+2024-07-13 22:57:06 - Platform: YouTube, Topic: Tips for writing research paper
+2024-07-14 20:22:36 - Platform: Facebook, Topic: Natural Language Processing
+2024-07-14 20:27:48 - Platform: Facebook, Topic: Natural Language Processing
+2024-07-14 20:34:56 - Platform: Facebook, Topic: Tips for writing research paper
+2024-07-14 20:38:21 - Platform: Facebook, Topic: Tips for writing research paper
+2024-08-22 09:13:52 - Platform: YouTube, Topic: strategies of marketing
+2024-08-22 09:14:19 - Platform: YouTube, Topic: strategies of marketing
+2024-08-30 21:49:29 - Platform: Facebook, Topic: Tips for writing research paper
+2024-08-30 22:01:33 - Platform: YouTube, Topic: ai
+2024-08-30 22:01:43 - Platform: YouTube, Topic: ai
+2024-09-02 13:34:54 - Platform: YouTube, Topic: Marketing strategies 
+2024-09-02 13:39:35 - Platform: YouTube, Topic: Marketing strategies 
+2024-09-02 13:39:57 - Platform: YouTube, Topic: Marketing strategies 
+2024-09-02 13:42:43 - Platform: YouTube, Topic: Machine Learning
+2024-09-03 11:45:13 -  Topic: Digital Marketing Tips
+2024-09-03 11:45:43 -  Topic: Digital Marketing Tips
+2024-09-03 14:45:54 -  Topic: Digital Marketing Tips
+2024-09-03 14:51:32 -  Topic: Digital Marketing Tips
+2024-09-03 14:51:45 -  Topic: Digital Marketing Tips
+2024-09-03 14:52:50 -  Topic: loaders in langchain
+2024-09-03 14:53:22 -  Topic: Tips for writing research paper
+2024-09-03 14:53:44 -  Topic: Tips for writing research paper
+2024-09-03 14:53:53 -  Topic: Tips for writing research paper
+2024-09-03 22:11:43 -  Topic: Digital Marketing Tips 
+2024-09-03 22:12:46 -  Topic: Digital Marketing Tips 
+2024-09-03 23:08:51 -  Topic: Digital Marketing Tips
+2024-09-03 23:10:49 -  Topic: Digital Marketing Tips
+2024-09-03 23:11:50 -  Topic: Digital Marketing Tips
+2024-09-03 23:31:39 -  Topic: Digital Marketing Tips 
+2024-09-03 23:32:08 -  Topic: Digital Marketing Tips 
+2024-09-03 23:33:16 -  Topic: Digital Marketing Tips 
+2024-09-05 09:40:07 -  Topic: Digital Marketing Tips 
+2024-09-05 09:40:55 -  Topic: Digital Marketing Tips 
+2024-09-05 10:39:52 -  Topic: Digital Marketing Tips 
+2024-09-05 10:46:46 -  Topic: Digital Marketing Tips 
+2024-10-01 11:24:09 -  Topic: advance python course
+2024-10-01 11:31:22 -  Topic: advance python course
+2024-10-01 11:32:05 -  Topic: advance python course
+2024-10-02 22:03:39 -  Topic: AdvanceMachine learning course
+2024-10-08 11:45:14 -  Topic: Digital Marketing Tips
+2024-10-09 22:06:04 -  Topic: digital marketing
+2024-12-28 22:31:49 -  Topic: Marketing strategies 
+2024-12-28 22:32:27 -  Topic: Marketing strategies 
+2024-12-28 22:38:47 -  Topic: Marketing strategies 
+2024-12-28 23:02:15 -  Topic: Marketing strategies 
+2025-03-17 11:50:34 -  Topic: digital marketing
+2025-03-17 11:52:21 -  Topic: digital marketing
+2025-03-17 11:58:30 -  Topic: digital marketing
+2025-03-17 12:22:01 -  Topic: digital marketing
+2025-03-18 09:40:40 -  Topic: Python advance course
+2025-03-18 09:43:21 -  Topic: Python advance course
+2025-03-18 09:43:40 -  Topic: Python advance course
+2025-03-18 09:46:17 -  Topic: Python advance course
