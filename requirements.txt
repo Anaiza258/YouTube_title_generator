@@ -1,6 +1,6 @@
 pandas
 plotly
-flask
+Flask
 numpy
 python-dotenv
 google-generativeai
