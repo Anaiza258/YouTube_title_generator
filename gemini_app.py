@@ -73,7 +73,7 @@ def generate_description():
         )
 
         # Call Gemini's API to generate the description
-        model = genai.GenerativeModel('gemini-2.0-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         response = model.generate_content(prompt)
         generated_description = response.candidates[0].content.parts[0].text
 
