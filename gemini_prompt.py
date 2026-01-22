@@ -28,7 +28,7 @@ def generate_title(topic, tone="engaging", seo=False, include_emojis=False, titl
     if include_emojis:
         prompt += " Add relevant emojis to enhance the title."
     
-    model = genai.GenerativeModel('gemini-2.0-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     response = model.generate_content(prompt)
     content = response.candidates[0].content.parts[0].text
     
@@ -57,7 +57,7 @@ def generate_description(title, descrip_char_limit=250, descrip_words_limit=50):
         f"The description should be well-written, perfectly done, detail oriented ending with a full stop. Avoid using double quotation marks."
     )
     
-    model = genai.GenerativeModel('gemini-2.0-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     response = model.generate_content(prompt)
     content = response.candidates[0].content.parts[0].text.strip()
     
